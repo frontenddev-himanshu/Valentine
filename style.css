@@ -193,6 +193,8 @@ body {
         height: fit-content;
         padding: 0 15px;
         margin-top: 15px;
+        opacity: 0;
+        transition: .4s all;
     }
 
     .pur-content {
@@ -221,7 +223,7 @@ body {
     }
 
     .pur-content p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         line-height: 40px;
         color: 	#d60000;
         font-weight: 600;
