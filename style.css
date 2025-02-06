@@ -116,7 +116,8 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
         overflow: hidden;
-        z-index: -1;
+        z-index: 1;
+        position: relative;
     }
 
     .purpose {
@@ -173,10 +174,11 @@ body {
         height: 80px;
         background-color: #d600004c;
         backdrop-filter: blur(5px);
-        margin-top: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
+        opacity: 0;
+        transition: .4s all;
     }
 
     .text-scroll {
@@ -186,5 +188,43 @@ body {
         letter-spacing: 3px;
     }
 
+    .purpose-valen {
+        width: 100%;
+        height: fit-content;
+        padding: 0 15px;
+        margin-top: 15px;
+    }
+
+    .pur-content {
+        width: 100%;
+        height: 500px;
+        background-image: url(Src/img-1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    }
+
+    .pur-content::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.469);
+        z-index: -1;
+    }
+
+    .pur-content p {
+        font-size: 1.5rem;
+        line-height: 40px;
+        color: 	#d60000;
+        font-weight: 600;
+    }
 
 }
