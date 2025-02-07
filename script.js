@@ -1,3 +1,5 @@
+AOS.init();
+
 function open() {
     document.querySelector(".purpose").style.opacity = 1;
     document.querySelector(".purpose").style.zIndex = 11111;

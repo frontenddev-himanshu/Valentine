@@ -361,7 +361,7 @@ body {
         justify-content: center;
         align-items: center;
     }
-    
+
     .scroll h1 {
         font-size: 12rem;
         animation: heartBeat 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -394,9 +394,40 @@ body {
     }
 
 
-    .l-conten {
+    .l-content {
         width: 100%;
         height: fit-content;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .l-content span {
+        font-size: 5rem;
+        margin-bottom: 20px;
+        font-weight: 800;
+        color: #793340;
+    }
+
+    .png {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .png img {
+        width: 400px;
+        height: 500px;
+        border-radius: 5px;
+    }
+
+    .memories-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
     }
 
 
