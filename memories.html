@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You/3</title>
+    <link rel="icon"
+        href="https://img.freepik.com/free-vector/red-heart-scribbled_1214-79.jpg?t=st=1738852925~exp=1738856525~hmac=81696958ba522a60e44066468c34dc822d2e9edc0b4aa22262d856b3cf581eca&w=826"
+        type="img/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="memories-container">
+        <div class="m-head">
+            <h4>MEMORIES (SINCE 2018)</h4>
+        </div>
+        <div class="memories-swiper">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="Src/1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/6.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/7.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/8.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/9.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/10.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/11.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="Src/12.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="video-memories">
+            <div class="row">
+                <div class="card shadow">
+                    <video src="Src/v-1.mp4" autoplay loop muted></video>
+                </div>
+
+                <div class="card shadow">
+                    <video src="Src/v-2.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+
+            <div class="row row-2">
+                <div class="card shadow">
+                    <video src="Src/v-3.mp4" autoplay loop muted></video>
+                </div>
+
+                <div class="card shadow">
+                    <video src="Src/v-4.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cards",
+            grabCursor: true,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

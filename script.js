@@ -6,7 +6,7 @@ function open() {
 }
 setTimeout(open, 500)
 
-document.querySelector(".cancel").addEventListener("click", function() {
+document.querySelector(".cancel").addEventListener("click", function () {
 
     document.querySelector(".purpose").style.opacity = 0;
     document.querySelector(".purpose").style.zIndex = -1;
