@@ -11,6 +11,8 @@ document.querySelector(".cancel").addEventListener("click", function() {
 
     document.querySelector(".say").style.opacity = 1;
     document.querySelector(".purpose-valen").style.opacity = 1;
+    document.querySelector(".shayri").style.opacity = 1;
+    document.querySelector(".next").style.opacity = 1;
 
 })
 
