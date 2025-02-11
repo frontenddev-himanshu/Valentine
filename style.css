@@ -204,19 +204,6 @@ body {
         transition: .4s all;
     }
 
-    .s-head {
-        width: fit-content;
-        background-color: #793340;
-        padding: 15px;
-        border-radius: 5px;
-    }
-
-    .s-head h4 {
-        color: #ffffff;
-        font-size: 1rem;
-        font-weight: 500;
-    }
-
     .s-content {
         width: 100%;
         height: fit-content;
@@ -417,13 +404,13 @@ body {
     /* page 3 */
     .memories-container {
         width: 100%;
-        height: 100vh;
+        height: fit-content;
         background-image: url(Src/bg.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         position: relative;
     }
 
