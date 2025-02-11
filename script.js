@@ -1,23 +1,13 @@
-AOS.init();
+let pngPage = document.querySelector(".pngWrap");
+let clr = document.querySelector(".clear-btn");
 
-function open() {
-    document.querySelector(".purpose").style.opacity = 1;
-    document.querySelector(".purpose").style.zIndex = 11111;
-}
-setTimeout(open, 500)
+setTimeout(() => {
+    pngPage.style.opacity = 1
+}, 500);
 
-document.querySelector(".cancel").addEventListener("click", function () {
-
-    document.querySelector(".purpose").style.opacity = 0;
-    document.querySelector(".purpose").style.zIndex = -1;
-
-    document.querySelector(".say").style.opacity = 1;
-    document.querySelector(".purpose-valen").style.opacity = 1;
-    document.querySelector(".shayri").style.opacity = 1;
-    document.querySelector(".next").style.opacity = 1;
-
+clr.addEventListener("click", function () {
+    pngPage.style.opacity = 0;
+    pngPage.style.zIndex = -1;
 })
-
-
 
 
